@@ -4,6 +4,11 @@
     body, header{
         width: 100%;
     }
+
+    .container {
+        width: 100%;
+    }
+
     .nav-bar{
         width: 100%;
     }
