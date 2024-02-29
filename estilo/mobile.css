@@ -1,0 +1,19 @@
+/* mobile */
+@media screen and (max-width:480px){
+
+    body, header{
+        width: 100%;
+    }
+    .nav-bar{
+        width: 100%;
+    }
+
+    .nav-bar-lista{
+        gap: 13px;
+    }
+
+    .nav-bar-lista li a{
+        font-size: 1.3rem;
+        color: black;
+    }
+}
