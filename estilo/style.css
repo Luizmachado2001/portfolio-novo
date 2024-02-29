@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* configurações padrões */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto'; 
+    font-size: 1rem;
+}
+
+:root{
+    --color: #fff;
+}
+
+.fa-linkedin{
+    font-size: 2rem;
+    color: blue;
+}
+
+.fa-github{
+    font-size: 2rem;
+}
+
+.upper{
+    text-transform: uppercase;
+    color: red;
+}
+
+.linha {
+    width: 500px;
+    margin: auto;
+    border-top: 1px solid #dcdcdc;
+}
+
+/* header  */
+html, body {
+    height: 100%;
+    background-image: url(../img/arquivo.jpg);
+    background-size: cover;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.nav-bar-lista{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 60px;
+}
+
+.nav-bar-lista li {
+    list-style-type: none;
+}
+
+.nav-bar-lista li a{
+    font-size: 25px;
+    color: var(--color);
+    font-weight: 300;
+    text-decoration: wavy;
+}
+/*  configurações do main  */
+main {
+    height: 60%;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+}
+.section-container{
+    text-align: center;
+}
+
+.section-container h1{
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.section-container p {
+    margin: 10px;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    --color: black;
+    color: var(--color);
+    line-height: 10px;
+}
+
+.section-lista{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+.section-lista li{
+    list-style-type: none;
+}
