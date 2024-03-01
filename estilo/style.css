@@ -109,8 +109,13 @@ main {
 /* mobile */
 @media screen and (max-width:480px){
 
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
     body, header{
-        width: 100%;
+        width: 99%;
     }
 
     .container {
@@ -128,5 +133,18 @@ main {
     .nav-bar-lista li a{
         font-size: 1.3rem;
         color: black;
+    }
+
+    .section-container{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .section-container h1 {
+        font-size: 4.4rem;
+    }
+    .section-container p {
+        font-size: 2rem;
+        padding: 2rem;
     }
 }
