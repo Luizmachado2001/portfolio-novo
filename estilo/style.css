@@ -114,8 +114,9 @@ main {
         padding: 0;
     }
 
-    body, header{
-        width: 99%;
+    body, html{
+        height: 100%;
+        width: 100%;
     }
 
     .container {
@@ -144,7 +145,17 @@ main {
         font-size: 4.4rem;
     }
     .section-container p {
-        font-size: 2rem;
-        padding: 2rem;
+        --color: rgb(233, 13, 13);
+        font-size: 1.3rem;
+        margin: 10px;
+        color: var(--color);
+        text-align: justify;
+    }
+
+    .upper{
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 13px 3px;
+        color: red;
     }
 }
