@@ -114,6 +114,12 @@ main {
     list-style-type: none;
 }
 
+footer{
+    padding-top: 1rem;
+    color: white;
+    text-align: center;
+}
+
 /* mobile */
 @media screen and (max-width:480px){
 
