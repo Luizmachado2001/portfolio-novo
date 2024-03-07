@@ -5,7 +5,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto'; 
+    font-family: 'Inter'; 
     font-size: 1rem;
 }
 
@@ -59,6 +59,14 @@ header{
 }
 
 .nav-bar-lista li a{
+    font-size: 25px;
+    color: var(--color);
+    font-weight: 300;
+    text-decoration: wavy;
+}
+
+.nav-bar-lista li a:hover{
+    --color: black;
     font-size: 25px;
     color: var(--color);
     font-weight: 300;
@@ -133,7 +141,7 @@ main {
 
     .nav-bar-lista li a{
         font-size: 1.3rem;
-        color: black;
+        color: fff;
     }
 
     .section-container{
